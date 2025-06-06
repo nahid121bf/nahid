@@ -3,7 +3,7 @@ import requests, os, sys, json, urllib, time
 from colorama import Fore, Back, Style
 session = requests.session()
 TOKEN = 7523195455:AAGt369gy0Uz5luTiNfkd0lmzhGV0h6bZe4
-URL = "https://api.telegram.org/bot{}/".format(7523195455:AAGt369gy0Uz5luTiNfkd0lmzhGV0h6bZe4)
+URL = "https://api.telegram.org/bot{}/".format(TOCKEN)
 global sms_sent
 global call_sent
 sms_sent=0
